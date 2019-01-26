@@ -10,8 +10,10 @@
 
 	<name>MNT</name>
 	<url>http://maven.apache.org</url>
-	
-			<build>
+	<profiles>
+	<profile>
+	<id>SM</id>
+	<build>
 				<pluginManagement>
 					<plugins>
 						<plugin>
@@ -27,6 +29,9 @@
 					</plugins>
 				</pluginManagement>
 			</build>
+	</profile>
+	</profiles>
+			
 
 		
 
